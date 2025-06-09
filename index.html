@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/img/ruuwarnalogo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="assets/hero.css" />
+    <!-- animation -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800"
+    />
+    <title>Ruu Warna Art Gallery</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+
+  <body
+    class="bg-white"
+    style="
+      font-family: 'Plus Jakarta Sans', 'Noto Sans', sans-serif,
+        'Noto Sans Sinhala';
+    "
+  >
+    <nav class="nav-bar shadow-md fixed w-full z-50" data-aos="fade-down">
+      <div class="max-w-10xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-16 items-center">
+          <!-- Logo -->
+          <div class="flex-shrink-0 text-2xl font-bold font-bold text-gray-800">
+            Ruu Warna <span class="text-blue-400">Art Gallery</span>
+          </div>
+
+          <!-- Desktop Menu -->
+          <div class="hidden md:flex space-x-8 items-center font-semibold">
+            <a href="#home" class="text-gray-700 hover:text-black">Home</a>
+            <a href="#about-us" class="text-gray-700 hover:text-black">About</a>
+            <a href="#more-artworks" class="text-gray-700 hover:text-black"
+              >Artworks</a
+            >
+            <a href="#featureds" class="text-gray-700 hover:text-black"
+              >Featured</a
+            >
+            <a href="#special-offers" class="text-gray-700 hover:text-black"
+              >Special Offers</a
+            >
+            <a
+              href="#contact"
+              class="text-white bg-blue-400 p-2 rounded-md w-75 hover:bg-blue-500"
+              >Contact</a
+            >
+          </div>
+
+          <!-- Mobile Menu Button -->
+          <div class="md:hidden">
+            <button id="menu-toggle" class="text-gray-700 focus:outline-none">
+              <svg
+                class="h-6 w-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                ></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Dropdown -->
+      <div
+        id="mobile-menu"
+        class="md:hidden hidden px-4 pb-4 space-y-2 opacity-0 translate-y-2 transform transition duration-300 ease-in-out"
+      >
+        <a href="#home" class="block text-gray-700 hover:text-black">Home</a>
+        <a href="#more-artworks" class="block text-gray-700 hover:text-black"
+          >Artworks</a
+        >
+
+        <a href="#about-us" class="block text-gray-700 hover:text-black"
+          >About</a
+        >
+        <a href="#featureds" class="block text-gray-700 hover:text-black"
+          >Featured</a
+        >
+        <a href="#special-offers" class="block text-gray-700 hover:text-black"
+          >Special Offers</a
+        >
+        <a href="#contact" class="block text-gray-700 hover:text-black"
+          >Contact</a
+        >
+      </div>
+    </nav>
+
+    <main
+      class="relative min-h-screen bg-cover bg-center"
+      style="background-image: url('./assets/img/Heroimg.png')"
+      id="home"
+      data-aos="fade-up"
+      data-aos-delay="50"
+    >
+      <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+
+      <div
+        class="relative z-10 flex items-center justify-center min-h-screen text-center"
+      >
+        <div class="max-w-3xl px-6">
+          <img
+            class="mx-auto"
+            style="width: 60%; height: auto"
+            src="./assets//img/ruuwlogo.png"
+            alt="Logo"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          />
+          <h1
+            class="text-5xl md:text-6xl font-bold text-white mb-6"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            Welcome to Ruu Warna Art Gallery
+          </h1>
+          <p
+            class="text-xl text-gray-200 mb-8 font-bold"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            සාම්ප්‍රදායෙන් ඔබ්බට 🎨
+          </p>
+          <a
+            href="https://wa.me/94764855395?text=Hello%20I%20would%20like%20to%20inquire%20about%20your%20services."
+            class="inline-block"
+          >
+            <!-- From Uiverse.io by Gaurang7717 -->
+            <button class="Btn" data-aos="fade-up" data-aos-delay="200">
+              <div class="sign">
+                <svg class="socialSvg whatsappSvg" viewBox="0 0 16 16">
+                  <path
+                    d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"
+                  ></path>
+                </svg>
+              </div>
+
+              <div class="text">Whatsapp</div>
+            </button>
+          </a>
+
+          <a
+            href="https://www.facebook.com/share/1AvrrS64V4/?mibextid=LQQJ4d"
+            class="inline-block"
+          >
+            <button
+              class="Btn"
+              style="background-color: #0072b4"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="sign">
+                <svg
+                  fill="#ffffff"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  stroke="#ffffff"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      d="M12 2.03998C6.5 2.03998 2 6.52998 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.84998C10.44 7.33998 11.93 5.95998 14.22 5.95998C15.31 5.95998 16.45 6.14998 16.45 6.14998V8.61998H15.19C13.95 8.61998 13.56 9.38998 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96C15.9164 21.5878 18.0622 20.3855 19.6099 18.57C21.1576 16.7546 22.0054 14.4456 22 12.06C22 6.52998 17.5 2.03998 12 2.03998Z"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+
+              <div class="text">Facebook</div>
+            </button>
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <!-- about us section -->
+    <section class="py-16 bg-white" id="about-us">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-4xl font-bold text-center mb-8">About Us</h2>
+        <p class="text-lg text-gray-700 text-center mb-12">
+          <span class="text-3xl">Welcome to </span>
+          <span class="text-blue-400 font-bold">Ruu Warna Art Gallery</span>,
+          where creativity meets passion. Founded in 2021, our online business
+          has quickly gained popularity among a wide audience. We specialize in
+          selling handcrafted and artistically created items that reflect
+          passion, tradition, and creativity. Among our most loved collections
+          are beautifully designed sarees and unique children's clothing, which
+          hold a special place in our store. Each piece is carefully made to
+          deliver quality, elegance, and a personal touch. Through this website,
+          you can easily connect with us, explore our products, and become part
+          of our growing community of satisfied customers. We’re here to bring
+          you closer to handcrafted beauty—delivered with care.
+        </p>
+
+        <!-- Gallery Section -->
+        <div
+          class="columns-1 sm:columns-2 md:columns-3 gap-4 space-y-4 aboutUs-card"
+        >
+          <div
+            data-aos="fade-up"
+            class="transition-transform duration-300 hover:scale-105 hover:shadow-xl rounded-2xl overflow-hidden cursor-pointer"
+          >
+            <img
+              src="./assets/img/IMG_1499.JPG"
+              alt="Unique Design 1"
+              class="rounded-2xl shadow-md w-full mb-4 object-cover"
+            />
+          </div>
+          <div data-aos="fade-up" data-aos-delay="100">
+            <img
+              src="./assets/img/IMG_1500.JPG"
+              alt="Unique Design 2"
+              class="rounded-2xl shadow-md w-full mb-4 object-cover"
+            />
+          </div>
+          <div data-aos="fade-up" data-aos-delay="200">
+            <img
+              src="./assets/img/IMG_1504.JPG"
+              alt="Unique Design 3"
+              class="rounded-2xl shadow-md w-full mb-4 object-cover"
+            />
+          </div>
+          <div data-aos="fade-up" data-aos-delay="300">
+            <img
+              src="./assets/img/IMG_1498.JPG"
+              alt="Saree Design"
+              class="rounded-2xl shadow-md w-full mb-4 object-cover"
+            />
+          </div>
+          <div data-aos="fade-up" data-aos-delay="400">
+            <img
+              src="./assets/img/IMG_1503.JPG"
+              alt="Kids Wear"
+              class="rounded-2xl shadow-md w-full mb-4 object-cover"
+            />
+          </div>
+          <div data-aos="fade-up" data-aos-delay="500">
+            <img
+              src="./assets/img/IMG_1496.JPG"
+              alt="Handmade Art"
+              class="rounded-2xl shadow-md w-full mb-4 object-cover"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Artworks Section -->
+    <section
+      id="featured-artworks  featureds"
+      style="padding: 40px; background: #cccccca9"
+    >
+      <h2 class="text-4xl font-bold text-center mb-8">Featured Artworks</h2>
+
+      <!-- Grid container -->
+      <div
+        id="artworks-container"
+        style="
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+          gap: 25px;
+          max-width: 1200px;
+          margin: 0 auto;
+        "
+      >
+        <!-- Artwork Card Template (x4) -->
+        <div
+          data-aos="fade-up"
+          data-aos-delay="500"
+          class="artwork-card"
+          data-title="Artwork Title 1"
+          data-desc="Short description about artwork 1."
+          style="
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+          "
+        >
+          <img
+            src="./assets/img/IMG_1501.JPG"
+            alt="Artwork 1"
+            style="width: 100%; height: auto"
+          />
+          <h3 style="margin: 10px 0">Traditional Art</h3>
+          <p style="color: #555; padding: 0 10px 15px">
+            This piece reflects the rich cultural heritage and artistic
+            traditions.
+          </p>
+          <div style="text-align: center; margin-bottom: 15px">
+            <button
+              class="send-whatsapp-btn"
+              style="
+                padding: 8px 16px;
+                border: none;
+                background-color: #128c7e;
+                color: white;
+                border-radius: 4px;
+                cursor: pointer;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                gap: 8px;
+              "
+            >
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                alt="WhatsApp"
+                style="width: 18px; height: 18px"
+              />
+              Order Now
+            </button>
+          </div>
+        </div>
+
+        <!-- Duplicate and modify the above card for Artwork 2, 3, 4 -->
+        <!-- Artwork 2 -->
+        <div
+          data-aos="fade-up"
+          data-aos-delay="500"
+          class="artwork-card"
+          data-title="Artwork Title 2"
+          data-desc="Short description about artwork 2."
+          style="
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+          "
+        >
+          <img
+            src="./assets/img/IMG_1504.JPG"
+            alt="Artwork 2"
+            style="width: 100%; height: auto"
+          />
+          <h3 style="margin: 10px 0">Book mark</h3>
+          <p style="color: #555; padding: 0 10px 15px">
+            Handpainted bookmarks that add a personal touch to your reading
+            experience.
+          </p>
+          <div style="text-align: center; margin-bottom: 15px">
+            <button
+              class="send-whatsapp-btn"
+              style="
+                padding: 8px 16px;
+                border: none;
+                background-color: #128c7e;
+                color: white;
+                border-radius: 4px;
+                cursor: pointer;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                gap: 8px;
+              "
+            >
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                alt="WhatsApp"
+                style="width: 18px; height: 18px"
+              />
+              Order Now
+            </button>
+          </div>
+        </div>
+
+        <!-- Artwork 3 -->
+        <div
+          data-aos="fade-up"
+          data-aos-delay="500"
+          class="artwork-card"
+          data-title="Artwork Title 3"
+          data-desc="Short description about artwork 3."
+          style="
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+          "
+        >
+          <img
+            src="./assets/img/IMG_1500.JPG"
+            alt="Artwork 3"
+            style="width: 100%; height: auto"
+          />
+          <h3 style="margin: 10px 0">Wings Sarees</h3>
+          <p style="color: #555; padding: 0 10px 15px">
+            A beautiful collection of handwoven sarees that celebrate the
+            elegance of traditional craftsmanship.
+          </p>
+          <div style="text-align: center; margin-bottom: 15px">
+            <button
+              class="send-whatsapp-btn"
+              style="
+                padding: 8px 16px;
+                border: none;
+                background-color: #128c7e;
+                color: white;
+                border-radius: 4px;
+                cursor: pointer;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                gap: 8px;
+              "
+            >
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                alt="WhatsApp"
+                style="width: 18px; height: 18px"
+              />
+              Order Now
+            </button>
+          </div>
+        </div>
+
+        <!-- Artwork 4 -->
+        <div
+          data-aos="fade-up"
+          data-aos-delay="500"
+          class="artwork-card"
+          data-title="Artwork Title 4"
+          data-desc="Short description about artwork 4."
+          style="
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+          "
+        >
+          <img
+            src="./assets/img/IMG_1499.JPG"
+            alt="Artwork 4"
+            style="width: 100%; height: auto"
+          />
+          <h3 style="margin: 10px 0">Egyptian God and Mayan God Mixing Art</h3>
+          <p style="color: #555; padding: 0 10px 15px">
+            A unique blend of Egyptian and Mayan artistic styles, showcasing the
+            beauty of cultural fusion.
+          </p>
+          <div style="text-align: center; margin-bottom: 15px">
+            <button
+              class="send-whatsapp-btn"
+              style="
+                padding: 8px 16px;
+                border: none;
+                background-color: #128c7e;
+                color: white;
+                border-radius: 4px;
+                cursor: pointer;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                gap: 8px;
+              "
+            >
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                alt="WhatsApp"
+                style="width: 18px; height: 18px"
+              />
+              Order Now
+            </button>
+          </div>
+        </div>
+
+        <!-- card end -->
+      </div>
+    </section>
+
+    <section id="more-artworks" style="padding: 40px">
+      <h2 class="text-4xl font-bold text-center mb-8">More Artworks</h2>
+
+      <div
+        id="more-artworks-container"
+        style="
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+          gap: 25px;
+          max-width: 1200px;
+          margin: 0 auto;
+        "
+      >
+        <!-- Artwork 1 -->
+        <div
+          data-aos="fade-up"
+          class="artwork-card"
+          data-title="Art Print 1"
+          data-desc="Modern print art."
+          style="
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+          "
+        >
+          <img
+            src="./assets/img/IMG_1503.JPG"
+            alt="Art 1"
+            style="width: 100%"
+          />
+          <h3 style="margin: 10px 0">Decorative Piece</h3>
+          <p style="color: #555; padding: 0 10px 15px">
+            Add a pop of handmade beauty to your space.
+          </p>
+          <div style="text-align: center; margin-bottom: 15px">
+            <button
+              class="send-whatsapp-btn"
+              style="
+                padding: 8px 16px;
+                border: none;
+                background-color: #128c7e;
+                color: white;
+                border-radius: 4px;
+                cursor: pointer;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                gap: 8px;
+              "
+            >
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                alt="WhatsApp"
+                style="width: 18px; height: 18px"
+              />
+              Order Now
+            </button>
+          </div>
+        </div>
+
+        <!-- Artwork 2 -->
+        <div
+          data-aos="fade-up"
+          class="artwork-card"
+          data-title="Art Print 2"
+          data-desc="Elegant handmade creation."
+          style="
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+          "
+        >
+          <img
+            src="./assets/img/IMG_1496.JPG"
+            alt="Art 2"
+            style="width: 100%"
+          />
+          <h3 style="margin: 10px 0">Handcrafted Design</h3>
+          <p style="color: #555; padding: 0 10px 15px">
+            Unique style with a touch of tradition.
+          </p>
+          <div style="text-align: center; margin-bottom: 15px">
+            <button
+              class="send-whatsapp-btn"
+              style="
+                padding: 8px 16px;
+                border: none;
+                background-color: #128c7e;
+                color: white;
+                border-radius: 4px;
+                cursor: pointer;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                gap: 8px;
+              "
+            >
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                alt="WhatsApp"
+                style="width: 18px; height: 18px"
+              />
+              Order Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- special offers section -->
+
+    <section
+      id="special-offers"
+      style="padding: 40px; background: #cccccc96"
+      data-aos="fade-up"
+      data-aos-delay="500"
+    >
+      <h2 class="text-4xl font-bold text-center mb-8">🎉 Special Offers</h2>
+
+      <div
+        class="offers-container"
+        style="
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+          gap: 24px;
+          max-width: 1200px;
+          margin: auto;
+        "
+      >
+        <!-- Offer Card -->
+        <div
+          class="offer-card"
+          data-title="Special Offer 1"
+          data-desc="Get 25% off on this limited-edition piece."
+          style="
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding-bottom: 20px;
+          "
+        >
+          <img
+            src="./assets/offer cover.jpg"
+            alt="Special Offer 1"
+            style="width: 100%; height: auto"
+          />
+          <h3 style="margin: 10px 0; font-size: x-large; font-weight: 600">
+            Valentine offers💝
+          </h3>
+          <p style="color: #555; padding: 0 10px 15px">
+            Get 25% off on this limited-edition piece.
+          </p>
+          <div style="text-align: center; margin-bottom: 10px">
+            <a
+              href="https://wa.me/94764855395?text=Hello%20I%20would%20like%20to%20inquire%20about%20your%20services."
+              target="_blank"
+              rel="noopener noreferrer"
+              class="whatsapp-contact"
+              style="
+                padding: 8px 16px;
+                border: none;
+                background-color: #128c7e;
+                color: white;
+                border-radius: 4px;
+                cursor: pointer;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                gap: 8px;
+                text-decoration: none;
+              "
+            >
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                alt="WhatsApp"
+                style="width: 18px; height: 18px"
+              />
+              Order Now WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <!-- You can duplicate and edit more offer cards below as needed -->
+      </div>
+    </section>
+
+    <!-- feedback section -->
+
+    <section
+      id="testimonials"
+      class="relative"
+      style="
+        padding: 60px 20px;
+        background-image: url('./assets/feebackimg.jpg');
+        background-size: cover;
+        background-position: center;
+      "
+      data-aos="fade-up"
+      data-aos-delay="300"
+    >
+      <!-- Dark overlay -->
+      <div class="absolute inset-0 bg-black bg-opacity-60 z-0"></div>
+
+      <div class="relative z-10">
+        <h2 class="text-4xl font-bold text-center mb-12 text-white">
+          What Our Clients Are Saying
+        </h2>
+
+        <!-- Horizontal scroll wrapper -->
+        <div
+          class="overflow-x-auto pb-4"
+          style="
+            scroll-snap-type: x mandatory;
+            display: flex;
+            gap: 20px;
+            max-width: 100%;
+            padding: 0 20px 20px;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+            justify-self: center;
+            justify-items: center;
+          "
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
+          <!-- Hide scrollbar for WebKit -->
+          <style>
+            #testimonials .overflow-x-auto::-webkit-scrollbar {
+              display: none;
+            }
+          </style>
+
+          <!-- Testimonial Card 2 -->
+          <div
+            class="testimonial-card"
+            style="
+              max-width: 300px;
+              background-color: #f9f9f9;
+              padding: 25px;
+              border-radius: 10px;
+              box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+              text-align: center;
+              scroll-snap-align: center;
+              flex-shrink: 0;
+            "
+          >
+            <img
+              src="https://randomuser.me/api/portraits/men/35.jpg"
+              alt="Client"
+              style="
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                margin-bottom: 15px;
+              "
+            />
+            <p style="font-style: italic; color: #555">
+              “මේ චිත්‍රකලාවේ ගුණාත්මකත්වය සහ ලස්සන නිමාවට මම ඉතාමත් සතුටුයි.
+              සත්කාරයත් ඉතා හොඳයි. නැවතත් මෙතැනින් භාණ්ඩ ගන්න තීරණය කරනවා!”
+            </p>
+            <h4 style="margin-top: 15px; font-weight: bold">
+              – Tharindu Silva
+            </h4>
+          </div>
+
+          <!-- Testimonial Card 3 -->
+          <div
+            class="testimonial-card"
+            style="
+              max-width: 300px;
+              background-color: #f9f9f9;
+              padding: 25px;
+              border-radius: 10px;
+              box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+              text-align: center;
+              scroll-snap-align: center;
+              flex-shrink: 0;
+            "
+          >
+            <img
+              src="https://randomuser.me/api/portraits/women/65.jpg"
+              alt="Client"
+              style="
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                margin-bottom: 15px;
+              "
+            />
+            <p style="font-style: italic; color: #555">
+              “They understood exactly what I wanted and brought my idea to
+              life. I will be back for more!”
+            </p>
+            <h4 style="margin-top: 15px; font-weight: bold">
+              – Dinusha Karunaratne
+            </h4>
+          </div>
+
+          <div
+            class="testimonial-card"
+            style="
+              max-width: 300px;
+              background-color: #f9f9f9;
+              padding: 25px;
+              border-radius: 10px;
+              box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+              text-align: center;
+              scroll-snap-align: center;
+              flex-shrink: 0;
+            "
+          >
+            <img
+              src="https://randomuser.me/api/portraits/women/85.jpg"
+              alt="Client"
+              style="
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                margin-bottom: 15px;
+              "
+            />
+            <p style="font-style: italic; color: #555">
+              “"මගේ අදහසට අනුකූලවම, ඉතාමත් නිවැරදිව වැඩේ කරලා තියෙන්නෙ. හැමෝටම
+              highly recommend කරනවා!”
+            </p>
+            <h4 style="margin-top: 15px; font-weight: bold">
+              – දිලිනි කරුණාරත්න
+            </h4>
+          </div>
+
+          <div
+            class="testimonial-card"
+            style="
+              max-width: 300px;
+              background-color: #f9f9f9;
+              padding: 25px;
+              border-radius: 10px;
+              box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+              text-align: center;
+              scroll-snap-align: center;
+              flex-shrink: 0;
+            "
+          >
+            <img
+              src="https://randomuser.me/api/portraits/women/25.jpg"
+              alt="Client"
+              style="
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                margin-bottom: 15px;
+              "
+            />
+            <p style="font-style: italic; color: #555">
+              “ඔයාලගේ bookmark එකක් මට birthday gift එකක් විදිහට ලැබුණා. ඒක
+              ලස්සනට අඳිලා, ගුණාත්මක කඩදාසි පාවිච්චි කරලා හදලා තිබ්බා. දැන් මගේ
+              සෙරම පොත් වල එහෙම එකක් ඕනේ!”
+            </p>
+            <h4 style="margin-top: 15px; font-weight: bold">
+              – Nadeesha Ranasingha
+            </h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section
+      id="contact"
+      class="py-16 px-4"
+      data-aos="fade-up"
+      data-aos-delay="300"
+    >
+      <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-start">
+        <!-- Left Side: Contact Info -->
+        <div class="space-y-6">
+          <h2 class="text-4xl font-bold text-gray-800 mb-4">Contact Us</h2>
+
+          <!-- Address -->
+          <div class="flex items-start gap-4">
+            <svg
+              class="w-6 h-6 text-blue-400"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"
+              />
+            </svg>
+            <div>
+              <h4 class="font-semibold">Address</h4>
+              <p>Kottawa, Yakkalamulla , Galle</p>
+            </div>
+          </div>
+
+          <!-- Email -->
+          <div class="flex items-start gap-4">
+            <svg
+              class="w-6 h-6 text-blue-400"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2zm8 7 8-5H4l8 5zm0 2-8-5v10h16V8l-8 5z"
+              />
+            </svg>
+            <div>
+              <h4 class="font-semibold">Email</h4>
+              <p>ruuwarnalk@gmail.com</p>
+            </div>
+          </div>
+
+          <!-- Phone -->
+          <div class="flex items-start gap-4">
+            <svg
+              class="w-6 h-6 text-blue-400"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2A19.78 19.78 0 0 1 3.08 5.18 2 2 0 0 1 5 3h3a2 2 0 0 1 2 1.72 12.09 12.09 0 0 0 .56 2.57 2 2 0 0 1-.45 2.11l-1.27 1.27a16 16 0 0 0 6.29 6.29l1.27-1.27a2 2 0 0 1 2.11-.45 12.09 12.09 0 0 0 2.57.56A2 2 0 0 1 22 16.92z"
+              />
+            </svg>
+            <div>
+              <h4 class="font-semibold">Call Us</h4>
+              <p>+94 76 485 5395</p>
+            </div>
+            <a
+              href="https://wa.me/94764855395?text=Hello%20I%20would%20like%20to%20inquire%20about%20your%20services."
+              target="_blank"
+              rel="noopener noreferrer"
+              class="whatsapp-contact"
+              style="
+                padding: 8px 16px;
+                border: none;
+                background-color: #128c7e;
+                color: white;
+                border-radius: 4px;
+                cursor: pointer;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                gap: 8px;
+                text-decoration: none;
+              "
+            >
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                alt="WhatsApp"
+                style="width: 18px; height: 18px"
+              />
+              Contact Us WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Side: Contact Form -->
+        <div class="bg-white p-8 rounded-lg shadow-md">
+          <form class="space-y-6">
+            <div>
+              <label for="name" class="block text-sm font-medium text-gray-700"
+                >Name</label
+              >
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                class="mt-1 p-2 w-full border border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-300"
+              />
+            </div>
+            <div>
+              <label for="email" class="block text-sm font-medium text-gray-700"
+                >Email</label
+              >
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                class="mt-1 p-2 w-full border border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-300"
+              />
+            </div>
+            <div>
+              <label
+                for="message"
+                class="block text-sm font-medium text-gray-700"
+                >Message</label
+              >
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                required
+                class="mt-1 p-2 w-full border border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-300"
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="w-full text-white py-2 px-4 rounded transition"
+              style="background-color: #05adad"
+            >
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer
+      class="text-white py-6"
+      style="background-color: #05adad"
+      data-aos="fade-up"
+      data-aos-delay="100"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <p class="text-sm">
+          &copy; 2023 Ruu Warna Art Gallery. All rights reserved.
+        </p>
+
+        <!-- Social Media Icons -->
+        <div class="flex justify-center space-x-6 mt-4">
+          <!-- Facebook -->
+          <a
+            href="https://www.facebook.com/share/1AvrrS64V4/?mibextid=LQQJ4d"
+            class="hover:text-gray-200"
+            aria-label="Facebook"
+          >
+            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M22 12.07C22 6.48 17.52 2 12 2S2 6.48 2 12.07c0 5.02 3.66 9.19 8.44 9.93v-7.03H7.9v-2.9h2.54V9.91c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.24.2 2.24.2v2.47h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.44 2.9h-2.34v7.03C18.34 21.26 22 17.09 22 12.07z"
+              />
+            </svg>
+          </a>
+
+          <!-- WhatsApp -->
+          <a
+            href="https://wa.me/94764855395?text=Hello%20I%20would%20like%20to%20inquire%20about%20your%20services."
+            class="hover:text-gray-200 whats"
+            aria-label="WhatsApp"
+          >
+            <svg
+              class="h-6 w-6 whatsapp-contact"
+              fill="currentColor"
+              viewBox="0 0 32 32"
+            >
+              <path
+                d="M16 2.933c-7.314 0-13.25 5.937-13.25 13.25 0 2.37.646 4.675 1.875 6.7L2.133 29.867l7.042-2.479c1.968 1.106 4.191 1.688 6.825 1.688 7.314 0 13.25-5.937 13.25-13.25S23.314 2.933 16 2.933zm0 23.917c-2.106 0-4.102-.573-5.85-1.656l-.417-.25-4.167 1.479 1.417-4.062-.271-.437C5.605 20.049 5.067 18.554 5.067 16.183c0-6.008 4.925-10.933 10.933-10.933s10.933 4.925 10.933 10.933S22.008 26.85 16 26.85zm5.471-7.617c-.291-.146-1.724-.848-1.99-.945-.266-.099-.458-.146-.65.146s-.745.945-.915 1.143c-.167.195-.337.219-.628.073-.291-.147-1.229-.453-2.34-1.444-.865-.77-1.449-1.717-1.621-2.008-.168-.291-.018-.448.127-.593.13-.13.291-.337.437-.505.147-.167.196-.292.293-.486.098-.195.049-.365-.024-.512-.074-.146-.65-1.568-.89-2.153-.233-.559-.47-.483-.649-.492l-.552-.01c-.192 0-.505.073-.77.365s-1.01.987-1.01 2.403 1.033 2.788 1.177 2.984c.146.195 2.034 3.11 4.932 4.365.689.297 1.225.474 1.643.606.69.22 1.318.189 1.813.115.553-.083 1.724-.704 1.969-1.385.243-.682.243-1.267.17-1.386-.073-.12-.267-.194-.559-.34z"
+              />
+            </svg>
+          </a>
+
+          <!-- TikTok -->
+          <a
+            href="https://www.tiktok.com/@ruuwarna?_t=ZS-8x2W2Ghn2kj&_r=1"
+            class="hover:text-gray-200"
+            aria-label="TikTok"
+          >
+            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M232 64a72.07 72.07 0 0 1-72-72h-32v144a40 40 0 1 1-40-40v-32a72 72 0 1 0 72 72V92.77A103.76 103.76 0 0 0 232 104z"
+              />
+            </svg>
+          </a>
+        </div>
+
+        <div class="mt-4">
+          <p class="text-sm">
+            Follow us on social media for the latest updates and offers.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const toggle = document.getElementById("menu-toggle");
+      const mobileMenu = document.getElementById("mobile-menu");
+
+      toggle.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+        mobileMenu.classList.toggle("translate-y-2");
+        mobileMenu.classList.toggle("opacity-0");
+        mobileMenu.classList.toggle("opacity-100");
+      });
+    </script>
+
+    <!-- AOS JS animation-->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="./assets/hero.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
