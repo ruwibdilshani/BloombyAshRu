@@ -3,13 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Stitch Design</title>
+    <title>Bloom by AshRu</title>
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
     <link rel=" stylesheet" href="./assets/index.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?display=swap&family=Noto+Sans:wght@400;500;700;900&family=Plus+Jakarta+Sans:wght@400;500;700;800"
-    />
+    <link rel="icon" href="assets/img/letterLogo.png" type="image/x-icon" />
+
+     
     <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
   </head>
@@ -23,26 +22,24 @@
         class="flex items-center justify-between border-b border-[#f4f0f0] px-4 sm:px-10 py-3"
       >
         <div class="flex items-center gap-4 text-[#181111]">
-          <div class="w-6 h-6">
-            <svg
-              viewBox="0 0 48 48"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M44 11.2727C44 14.0109 39.8386 16.3957 33.69 17.6364C39.8386 18.877 44 21.2618 44 24C44 26.7382 39.8386 29.123 33.69 30.3636C39.8386 31.6043 44 33.9891 44 36.7273C44 40.7439 35.0457 44 24 44C12.9543 44 4 40.7439 4 36.7273C4 33.9891 8.16144 31.6043 14.31 30.3636C8.16144 29.123 4 26.7382 4 24C4 21.2618 8.16144 18.877 14.31 17.6364C8.16144 16.3957 4 14.0109 4 11.2727C4 7.25611 12.9543 4 24 4C35.0457 4 44 7.25611 44 11.2727Z"
-                fill="currentColor"
-              ></path>
-            </svg>
+          <div class="w-6 h-auto">
+            <img
+              src="./assets/img/letterLogo.png"
+              alt="Bloom by AshRu Logo"
+              class="w-full h-full object-cover"
+            />
           </div>
           <h2 class="text-lg sm:text-xl font-bold tracking-tight">
-            Petal & Bloom
+            Bloom by AshRu
           </h2>
         </div>
 
         <!-- Desktop nav and buttons -->
         <div class="hidden lg:flex flex-1 justify-end gap-8 items-center">
-          <nav class="flex gap-6 text-sm font-medium text-[#181111]">
+          <nav
+            class="flex gap-6 text-sm font-medium text-[#181111] position-fixed"
+            aria-label="Main navigation"
+          >
             <a href="#">Home</a>
             <a href="#">About</a>
             <a href="#">New Items</a>
@@ -242,7 +239,174 @@
       </div>
       <!-- hero section end -->
 
-      <!-- hero section end  -->
+      <!-- new flower content -->
+
+      <div class="px-40 flex flex-1 justify-center py-5">
+        <div class="layout-content-container flex flex-col flex-1">
+          <div class="flex flex-wrap justify-between gap-3 p-4">
+            <p
+              class="text-[#181111] tracking-light text-[32px] font-bold leading-tight min-w-72"
+            >
+              New Items
+            </p>
+          </div>
+          <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 p-4">
+            <!-- card start -->
+            <div class="flex flex-col gap-3 pb-3">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+                style="
+                  background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCvLfObDgervTDmTnMiSc-GXWUYvNU43IeiobxSRLgCBj8j16Xb01GStnP5WwP4MmGA7Rl9I_OF1IKdD3Fqt3qf2QCutoo0U8mlhBqrIM2ncM6e-ejF6PkjGLGEzSjSvxrhq3yLQTNPadapbA-P_WXuGHCivpSFQhMHCaNywPs_1VXuHVJNTwTVqoHV2JcQhK5vBU3NhU5flGK7-i9UCXuAe-lx0tFyV5yeS83EWdvnvlwzB5ZgPciyw0kGncR97f5MaNBEIGl2h98');
+                "
+              ></div>
+              <div>
+                <p class="text-[#181111] text-base font-medium leading-normal">
+                  Sunset Roses
+                </p>
+                <p class="text-[#886364] text-sm font-normal leading-normal">
+                  A bouquet of vibrant roses, perfect for any occasion.
+                </p>
+              </div>
+            </div>
+            <!-- card end -->
+
+            <div class="flex flex-col gap-3 pb-3">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+                style="
+                  background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDMRE8uiXlTRsm7TWPoXAwwPvfHOPNalN2QmBVUZuLfnSZdA3obRZ9DaIdV0DHCtWMsTRoSlL8H6PBj-qVY5l78Rzx8RaDLvyit5kNq9pa6TB6IwQd34Rl3_QEBkLqUO9an2qn3W18jM0UeSlWIUnBF4CqOcd8ytBgo3U_umQt4csf7rIPbzO8RPpACwkJGZPEsJGnd1fO7lFnQ5f1hTufQNPnE0IPV2lqN3spo69FPhrRE_K9z5tP6gq4Ha3q02QYnaWxXJ3XTabE');
+                "
+              ></div>
+              <div>
+                <p class="text-[#181111] text-base font-medium leading-normal">
+                  Daisy Delight
+                </p>
+                <p class="text-[#886364] text-sm font-normal leading-normal">
+                  A cheerful arrangement of daisies, bringing joy to any space.
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-col gap-3 pb-3">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+                style="
+                  background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBvoVahu1-vlsgMTxxXERiFlyTReqh8o2junlNEKBCaU13KTsPsQZLy64QoTBh8nxI0i-4HQ3G8INjAK59HLXfWAGw1Yocci9dCFXjxquOouhYr166hXIKzwPpztFRrXXP7kMh_E77p5Zbdwwm1mM2chN7C4wpn9xIHML7p2AlaVp0zIEsQcBNzFJR2IY_TbkXsymIhHNNMU8ckyFU-GkOc3kcHO2cdDb7FiUoGQQNcgTA6Z3gxPvXCOSh5cRnBh1N_OM-1yKL90Uc');
+                "
+              ></div>
+              <div>
+                <p class="text-[#181111] text-base font-medium leading-normal">
+                  Lavender Dreams
+                </p>
+                <p class="text-[#886364] text-sm font-normal leading-normal">
+                  A calming mix of lavender, ideal for relaxation.
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-col gap-3 pb-3">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+                style="
+                  background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD5Qq7VwasjrCVS_P5nyzH9jhEq_GzBZBBVz1yQeI89nIFAqhcSrhpxLCxB-0RpAjiSzdDKkCw79fNvYfEg-Vi3zQXH3mpwNZqFE3Y3YLZ0mWKrRk0rkZEmuuWMdixgpXP2kL7gO5ROL8LnYP6lhJVQyUtcnNsM0SG-3bNKYlkdCTc4YjXsTtwqKNdP4PW4N4JiHLxp0v3ltl7eIJ6XobseEHeKAWxZ4GIHb-45NBZgGdRLD8TEuWGA8CI-UeOwWa3qsKVGHziKkWk');
+                "
+              ></div>
+              <div>
+                <p class="text-[#181111] text-base font-medium leading-normal">
+                  Sunflower Serenade
+                </p>
+                <p class="text-[#886364] text-sm font-normal leading-normal">
+                  Bright and sunny sunflowers, a symbol of happiness.
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-col gap-3 pb-3">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+                style="
+                  background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA2vwZmCiIYa9YxHSc10VcJxUbhrpNfyT98qsqMh02cVgPzD4nWWvEt54C7VgVXspQXkAG7CUPl5zRPKKxqTBgadY1XERARV5phX8oAbxV9fyw3kCXdf9LYIst-R2UYHJBIZYTeo-TlaMPUnz0tKECbuwmy2Czod590MosCM0bxpAiMlz4B9M3ChUf3c-YuTtwsoDeS5n8j-JFSaEuJpUpsJ2QXgrfLrwV5tzHvb6C1h9EKnc_rc6-gDFNnwmWPjEJTgyhd4u_2r8M');
+                "
+              ></div>
+              <div>
+                <p class="text-[#181111] text-base font-medium leading-normal">
+                  Tulip Temptation
+                </p>
+                <p class="text-[#886364] text-sm font-normal leading-normal">
+                  Elegant tulips in various shades, a classic choice.
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-col gap-3 pb-3">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+                style="
+                  background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDKY33kxgKexSjdz5Jhyu4tSVAu1RsZ7q3HpdsIhXU4zBBV34uzki33ApHDJWi-cfzuxqwMGnyFKP8OvOJLKHaE6ukoUZ46mGelREhBJUDk3VkCqfm0rnWUwqQiERMWldA9PSs1YHAtcomw35ZmGCcE6ja5S3kz9l7Wspo3iigPtXu_e804QurUEQsmTmWvQoK583Y0vyFd9NBJ9p1msQ9_24AoF7aqJZk4vblgN8ZJGhA0CVEQM8wIyCASWbDXJYksYUu8bX7XQSI');
+                "
+              ></div>
+              <div>
+                <p class="text-[#181111] text-base font-medium leading-normal">
+                  Orchid Oasis
+                </p>
+                <p class="text-[#886364] text-sm font-normal leading-normal">
+                  Exotic orchids, adding a touch of sophistication.
+                </p>
+              </div>
+            </div>
+
+            <!-- reapeat card -->
+            <div class="flex flex-col gap-3 pb-3">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+                style="
+                  background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCvLfObDgervTDmTnMiSc-GXWUYvNU43IeiobxSRLgCBj8j16Xb01GStnP5WwP4MmGA7Rl9I_OF1IKdD3Fqt3qf2QCutoo0U8mlhBqrIM2ncM6e-ejF6PkjGLGEzSjSvxrhq3yLQTNPadapbA-P_WXuGHCivpSFQhMHCaNywPs_1VXuHVJNTwTVqoHV2JcQhK5vBU3NhU5flGK7-i9UCXuAe-lx0tFyV5yeS83EWdvnvlwzB5ZgPciyw0kGncR97f5MaNBEIGl2h98');
+                "
+              ></div>
+              <div>
+                <p class="text-[#181111] text-base font-medium leading-normal">
+                  Sunset Roses
+                </p>
+                <p class="text-[#886364] text-sm font-normal leading-normal">
+                  A bouquet of vibrant roses, perfect for any occasion.
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-col gap-3 pb-3">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+                style="
+                  background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCvLfObDgervTDmTnMiSc-GXWUYvNU43IeiobxSRLgCBj8j16Xb01GStnP5WwP4MmGA7Rl9I_OF1IKdD3Fqt3qf2QCutoo0U8mlhBqrIM2ncM6e-ejF6PkjGLGEzSjSvxrhq3yLQTNPadapbA-P_WXuGHCivpSFQhMHCaNywPs_1VXuHVJNTwTVqoHV2JcQhK5vBU3NhU5flGK7-i9UCXuAe-lx0tFyV5yeS83EWdvnvlwzB5ZgPciyw0kGncR97f5MaNBEIGl2h98');
+                "
+              ></div>
+              <div>
+                <p class="text-[#181111] text-base font-medium leading-normal">
+                  Sunset Roses
+                </p>
+                <p class="text-[#886364] text-sm font-normal leading-normal">
+                  A bouquet of vibrant roses, perfect for any occasion.
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-col gap-3 pb-3">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+                style="
+                  background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCvLfObDgervTDmTnMiSc-GXWUYvNU43IeiobxSRLgCBj8j16Xb01GStnP5WwP4MmGA7Rl9I_OF1IKdD3Fqt3qf2QCutoo0U8mlhBqrIM2ncM6e-ejF6PkjGLGEzSjSvxrhq3yLQTNPadapbA-P_WXuGHCivpSFQhMHCaNywPs_1VXuHVJNTwTVqoHV2JcQhK5vBU3NhU5flGK7-i9UCXuAe-lx0tFyV5yeS83EWdvnvlwzB5ZgPciyw0kGncR97f5MaNBEIGl2h98');
+                "
+              ></div>
+              <div>
+                <p class="text-[#181111] text-base font-medium leading-normal">
+                  Sunset Roses
+                </p>
+                <p class="text-[#886364] text-sm font-normal leading-normal">
+                  A bouquet of vibrant roses, perfect for any occasion.
+                </p>
+              </div>
+            </div>
+
+            <!-- card container end -->
+          </div>
+        </div>
+      </div>
+
+      <!-- new flower end -->
 
       <!-- featured content -->
 
@@ -936,32 +1100,47 @@
                   Facebook
                 </p>
               </div>
-              <div
-                class="flex flex-col items-center gap-2 bg-white py-2.5 text-center w-20"
-              >
-                <div class="rounded-full bg-[#f4f0f0] p-2.5">
-                  <div
-                    class="text-[#181111]"
-                    data-icon="TwitterLogo"
-                    data-size="20px"
-                    data-weight="regular"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="20px"
-                      height="20px"
-                      fill="currentColor"
-                      viewBox="0 0 256 256"
-                    >
-                      <path
-                        d="M247.39,68.94A8,8,0,0,0,240,64H209.57A48.66,48.66,0,0,0,168.1,40a46.91,46.91,0,0,0-33.75,13.7A47.9,47.9,0,0,0,120,88v6.09C79.74,83.47,46.81,50.72,46.46,50.37a8,8,0,0,0-13.65,4.92c-4.31,47.79,9.57,79.77,22,98.18a110.93,110.93,0,0,0,21.88,24.2c-15.23,17.53-39.21,26.74-39.47,26.84a8,8,0,0,0-3.85,11.93c.75,1.12,3.75,5.05,11.08,8.72C53.51,229.7,65.48,232,80,232c70.67,0,129.72-54.42,135.75-124.44l29.91-29.9A8,8,0,0,0,247.39,68.94Zm-45,29.41a8,8,0,0,0-2.32,5.14C196,166.58,143.28,216,80,216c-10.56,0-18-1.4-23.22-3.08,11.51-6.25,27.56-17,37.88-32.48A8,8,0,0,0,92,169.08c-.47-.27-43.91-26.34-44-96,16,13,45.25,33.17,78.67,38.79A8,8,0,0,0,136,104V88a32,32,0,0,1,9.6-22.92A30.94,30.94,0,0,1,167.9,56c12.66.16,24.49,7.88,29.44,19.21A8,8,0,0,0,204.67,80h16Z"
-                      ></path>
-                    </svg>
-                  </div>
-                </div>
-                <p class="text-[#181111] text-sm font-medium leading-normal">
-                  Twitter
-                </p>
+              <div class="flex flex-col items-center gap-2 bg-white py-2.5 text-center w-20">
+  <div class="rounded-full bg-[#f4f0f0] p-2.5">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="20px"
+      height="20px"
+      fill="currentColor"
+      viewBox="0 0 256 256"
+      class="text-[#181111]"
+      aria-hidden="true"
+    >
+      <path
+        d="M229.6,166.1l-43.9-19a8,8,0,0,0-9.4,2.4l-19.7,25.3a96.3,96.3,0,0,1-42.2-42.2l25.3-19.7a8,8,0,0,0,2.4-9.4l-19-43.9a8.1,8.1,0,0,0-13.7-2.2L74.2,79.7A88.2,88.2,0,1,0,232,160a8,8,0,0,0-2.4-6.4ZM88,216A72,72,0,0,1,82.5,72.6l17.6,40.6a112.6,112.6,0,0,0,58.7,58.7l40.6,17.6A71.7,71.7,0,0,1,88,216Z"
+      ></path>
+    </svg>
+  </div>
+  <p class="text-[#181111] text-sm font-medium leading-normal">WhatsApp</p>
+</div>
+
+<div class="flex flex-col items-center gap-2 bg-white py-2.5 text-center w-20">
+  <div class="rounded-full bg-[#f4f0f0] p-2.5">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="20px"
+      height="20px"
+      fill="currentColor"
+      viewBox="0 0 256 256"
+      class="text-[#181111]"
+      aria-hidden="true"
+    >
+      <path
+        d="M232,80a56.1,56.1,0,0,1-48-26.7V144a72,72,0,1,1-72-72,71.6,71.6,0,0,1,16.1,1.8,8,8,0,1,1-3.6,15.6A56.5,56.5,0,0,0,112,88a56,56,0,1,0,56,56V24a8,8,0,0,1,13.5-5.7A40.1,40.1,0,0,0,232,64a8,8,0,0,1,0,16Z"
+      ></path>
+    </svg>
+  </div>
+  <p class="text-[#181111] text-sm font-medium leading-normal">TikTok</p>
+</div>
+
+
+
+           
               </div>
             </div>
           </div>
